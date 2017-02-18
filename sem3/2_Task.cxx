@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 	std::vector<Dict> v;
 	std::map<std::string, int> mymap;
 	std::map<std::string, int> ::iterator it;
-	std::ifstream fin("text.txt");
+	std::ifstream fin("Warlocks_shadow.txt.txt");
 			
 	while(!fin.eof())
 	{
