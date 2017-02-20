@@ -54,10 +54,12 @@ int main(int argc, char **argv)
  	}
  	
  	std::sort(v.begin(), v.end(),cmp);
- 	for(i = 0; i <= 50; i++)
+ 	
+	for(i = 0; i <= 50; i++)
  	{
 		std::cout << v.at(i).key << " " << v.at(i).value << std::endl;
 	}
+	
 	return 0;
 }
 
